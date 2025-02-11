@@ -6,13 +6,9 @@ A **real-time chat application** built using **Spring Boot Microservices, React,
 
 ### 🔹 **Backend (Spring Boot Microservices)**  
 - ✅ **WebSocket & STOMP** for real-time messaging  
-- ✅ **Spring Security & JWT authentication** for secure access  
-- ✅ **OAuth2 login** for third-party authentication  
+- ✅ **Spring Security & JWT authentication** for secure access    
 - ✅ **Spring Data JPA & Hibernate** for MySQL database management  
 - ✅ **CORS handling** for secure cross-origin requests  
-- ✅ **Spring Cloud Gateway** for API gateway and routing  
-- ✅ **Spring Boot Actuator** for monitoring and health checks  
-- ✅ **Spring Retry** to handle transient failures in microservices  
 
 ### 🔹 **Frontend (React + Tailwind CSS)**  
 - ✅ **Fully responsive UI** built with **Tailwind CSS**  
@@ -20,15 +16,14 @@ A **real-time chat application** built using **Spring Boot Microservices, React,
 - ✅ **Optimized UI/UX** for smooth user interaction  
 
 ### 🔹 **Containerization & Deployment**  
-- ✅ **Dockerized** the application  
 - ✅ Currently working on **deploying to the cloud**  
 - ✅ Ensuring **scalability and high availability**  
 
 ## 🛠️ Tech Stack  
 ### **Backend:**  
 - **Java, Spring Boot, Spring Security, Spring Data JPA, Hibernate**  
-- **WebSocket, STOMP, JWT, OAuth2, Spring Cloud Gateway**  
-- **MySQL, Spring Boot Actuator, Spring Retry**  
+- **WebSocket, STOMP** 
+- **MySQL**
 
 ### **Frontend:**  
 - **React, Tailwind CSS**  
@@ -38,9 +33,3 @@ A **real-time chat application** built using **Spring Boot Microservices, React,
 - **Docker** for containerization  
 - Cloud deployment (In Progress)  
 
-## 🏗️ Setup & Installation  
-
-### **1️⃣ Clone the Repository**  
-```bash
-git clone https://github.com/your-username/chat-app.git
-cd chat-app
