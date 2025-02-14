@@ -21,20 +21,20 @@ public class RoomController {
         this.roomServices = roomServices;
     };
 
-    //create room
+    
     @PostMapping
     public ResponseEntity<?> createRoom(@RequestBody String roomId) { 
         System.out.println(roomId);
         return roomServices.createRoom(roomId);
     }
 
-    //get Room
+    
     @GetMapping("/{roomId}")
     public ResponseEntity<?> getRoom(@PathVariable String roomId){
         return roomServices.getRoom(roomId);
     }
 
-    //get messages of room
+    
     @GetMapping("/{roomId}/messages")
     public ResponseEntity<List<Message>> getMessages(@PathVariable String roomId){
         return roomServices.getAllMessages(roomId);
